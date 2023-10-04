@@ -1,0 +1,36 @@
+.box {
+  width: 500px;
+  border-radius: 5px;
+
+  overflow: hidden;
+}
+
+.title {
+  height: 100px;
+  color: #747476;
+  background-color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  height: 80px;
+  display: flex;
+}
+
+.item {
+  color: #fff;
+  flex-basis: 20%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.percentage {
+  font-size: 22px;
+}
